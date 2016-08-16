@@ -12,4 +12,4 @@ function start() {
 	http.createServer(onRequest).listen(8888);
 	console.log('Server has started');
 }
-export.start = start; // This makes the function available to be used in other modules
+exports.start = start; // This makes the function available to be used in other modules
